@@ -1,0 +1,15 @@
+
+package:
+  name: ucoro
+  version: 0.0.1
+
+  dep-sets:
+  - name: default-dev
+    deps: 
+    - name: gtest
+      url: https://github.com/google/googletest/archive/release-1.10.0.tar.gz
+  - name: default
+    deps: []
+
+
+
